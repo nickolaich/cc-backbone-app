@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "description": "SuperAdmin CCPN",
+  "main": "",
+  "authors": [
+    "nickolaich"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "underscore": "1.8.3",
+    "backbone": "1.2.3",
+    "requirejs": "~2.1.22",
+    "text": "requirejs-text#~2.0.14",
+    "moment": "*",
+    "marionette": "*",
+    "requirejs-i18n": "*",
+    "jquery-ui": "*",
+    "bootstrap": "*"
+  }
+}

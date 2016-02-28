@@ -1,0 +1,25 @@
+<h3><%=i18n.editing%> <%=fullName%></h3>
+<form class="form-horizontal">
+    <input type="hidden" name="_method" value="PUT"/>
+
+    <div class="form-group">
+        <label class="col-md-2 control-label" for="user-email"><%=i18n.email%></label>
+
+        <div class="col-md-10">
+            <input type="text" class="form-control" name="email" id="user-email" value="<%=email%>"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-2 control-label" for="user-name"><%=i18n.name%></label>
+
+        <div class="col-md-10">
+            <input type="text" class="form-control" name="name" id="user-name" value="<%=name%>"/>
+        </div>
+    </div>
+    <div class="form-group">
+
+        <div class="col-md-12">
+            <button class="btn btn-success" id="saveButton"><%=i18n.save%></button>
+        </div>
+    </div>
+</form>
