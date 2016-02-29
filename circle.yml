@@ -2,7 +2,7 @@ dependencies:
   override:
     #- bundle install
     - sudo pip install awscli
-    - sudo npm install
+    - npm install
     - sudo bower install
 
 deployment:
