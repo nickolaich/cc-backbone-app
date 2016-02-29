@@ -1,7 +1,5 @@
 var gulp = require("gulp"),
-    amdOptimize = require("amd-optimize"),
     concat = require("gulp-concat"),
-    eventStream = require("event-stream"),
     order = require("gulp-order"),
     htmlreplace = require('gulp-html-replace'),
     rimraf = require('rimraf'),
