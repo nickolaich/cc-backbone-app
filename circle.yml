@@ -3,7 +3,7 @@ dependencies:
     #- bundle install
     - sudo pip install awscli
     - npm install
-    - sudo bower install
+    - ./node_modules/bower/bin/bower install
 
 deployment:
   aws:
