@@ -2,12 +2,12 @@ dependencies:
   override:
     #- bundle install
     - sudo pip install awscli
-    - npm install
+    #- npm install
     - ./node_modules/bower/bin/bower install
 
 deployment:
   aws:
     branch: master
     commands:
-      - gulp build
-      - /bin/bash publish.sh
+      - ./node_modules/gulp/bin/gulp.js build
+      #- /bin/bash publish.sh
