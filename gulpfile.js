@@ -39,7 +39,7 @@ gulp.task('build:css', function () {
     ]) //Get all css files
         //.pipe(sourcemaps.init()) //Init sourcemaps
         //.pipe(sass()) //Build sass
-        .pipe(prefixer()) //add prefixes
+        //.pipe(prefixer()) //add prefixes
         .pipe(cssmin()) //minify
         //.pipe(sourcemaps.write())// write sourcemaps
         .pipe(concat("main.css"))
