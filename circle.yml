@@ -11,3 +11,7 @@ deployment:
     commands:
       - ./node_modules/gulp/bin/gulp.js build
       #- /bin/bash publish.sh
+
+test:
+  override:
+    - echo "no test yet"
