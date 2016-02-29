@@ -1,0 +1,13 @@
+dependencies:
+    override:
+        - bundle install
+        - sudo pip install awscli
+        - sudo npm install
+        - sudo bower install
+
+deployment:
+    aws:
+    branch: master
+        commands:
+        - gulp build
+        - /bin/bash publish.sh
